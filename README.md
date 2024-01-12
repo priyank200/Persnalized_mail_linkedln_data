@@ -2,9 +2,9 @@
 
 ## Overview
 
-This project utilizes Beautiful Soup and Selenium to scrape LinkedIn data, extracting various details about a person, including their name, headline, about section, top skills, experience, and education. The extracted data is then stored in JSON format for easy visualization and analysis.
+This project utilizes Beautiful Soup and Selenium to scrape LinkedIn data, extracting various details about a person, including their name, headline, section, top skills, experience, and education. The extracted data is then stored in JSON format for easy visualization and analysis.
 
-For personalized email generation, the project integrates a perplexity AI library, enhancing the ability to create engaging and contextually relevant email content based on the LinkedIn data.
+The project integrates a perplexity AI library for personalized email generation, enhancing the ability to create engaging and contextually relevant email content based on LinkedIn data.
 
 ## Features
 
@@ -31,9 +31,3 @@ For personalized email generation, the project integrates a perplexity AI librar
 - Selenium
 - [Perplexity AI Library] 
 
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/linkedin-scraper.git
