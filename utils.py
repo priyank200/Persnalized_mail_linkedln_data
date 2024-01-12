@@ -49,8 +49,8 @@ def get_page_source(url):
     print(f"entering Email")
     time.sleep(random.randint(5,7))
 
-    email = "strawhatluffy0802@gmail.com"
-    password = "Luffy0802"
+    email = ""
+    password = ""
     username = driver.find_element(By.ID, "username")
     username.send_keys(email) 
     time.sleep(random.randint(1,3))
