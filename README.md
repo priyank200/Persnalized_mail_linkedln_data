@@ -39,6 +39,8 @@ Before running the application, ensure you have the required dependencies instal
 
    ```bash
    git clone https://github.com/your-username/linkedin-scraper.git
+   
+2. Install dependencies:
 
    ```bash
    pip install -r requirements.txt
