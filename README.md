@@ -45,3 +45,6 @@ Before running the application, ensure you have the required dependencies instal
    ```bash
    pip install -r requirements.txt
 
+### Configuration
+In the utils.py file, provide your LinkedIn email and password. This information is required to fetch the page source from the given URL.
+
