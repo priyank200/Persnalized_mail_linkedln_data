@@ -26,7 +26,7 @@ For personalized email generation, the project integrates a perplexity AI librar
 
 ### Prerequisites
 
-- Python 3.x
+- Python 3.11
 - Beautiful Soup
 - Selenium
 - [Perplexity AI Library] (link to the library if applicable)
@@ -47,4 +47,17 @@ Before running the application, ensure you have the required dependencies instal
 
 ### Configuration
 In the utils.py file, provide your LinkedIn email and password. This information is required to fetch the page source from the given URL.
+
+## Usage
+
+1. **Run the `main.py` Script:**
+
+   ```bash
+   python main.py
+
+The main file is main.py after running this you will get the mail generated and it will also saved in a .txt file in the same directory.
+
+When prompted, choose whether to scrape the same LinkedIn account or a different one. (It will be asking a "1" for "Yes" and "0" for "No")
+If the account is the same, the code will use the last saved data in the JSON file without fetching the page source again.
+If the account is different, provide the LinkedIn profile URL when prompted, and the code will fetch the page source and update the JSON file accordingly.
 
