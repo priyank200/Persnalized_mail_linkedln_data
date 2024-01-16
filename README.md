@@ -29,5 +29,10 @@ The project integrates a perplexity AI library for personalized email generation
 - Python 3.11.4
 - Beautiful Soup
 - Selenium
-- [Perplexity AI Library] 
+- [Perplexity AI Library]
+
+### Install dependencies:
+ '''bash
+    pip install -r requirements.txt
+
 
